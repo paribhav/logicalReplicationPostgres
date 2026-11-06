@@ -53,6 +53,36 @@ A publication acts as a control layer on the source database, defining the bound
 Note : We can configure /publish ALL tables or selected tables.
 
 
+ Now we need to configure the destination PostgreSQL instance- TO configure the Subscriber
+
+ Check Check connectivity  between the two server (from subscriber server to publisher server / target server to source server ).
+ nc -zv 192.168.x.xx 5432
+
+ Login to target postgres ( mine version is 18.4 ) and create target database 
+ 
+<img width="710" height="142" alt="image" src="https://github.com/user-attachments/assets/5a6c57f1-9c88-46be-a084-4b94289f696c" />
+
+Create Subscription on Subscriber ---- Note we need to create table before creating subscription .....
+
+<img width="739" height="338" alt="image" src="https://github.com/user-attachments/assets/e75d2d34-6544-4537-8db4-84b838db24e2" />
+
+<img width="671" height="360" alt="image" src="https://github.com/user-attachments/assets/6f6ae2d0-b450-4366-bcdc-f3f85fcce670" />
+
+We can see Data at Target location .Now test Data by updating one records at source and verifying changes at target 
+
+<img width="1235" height="903" alt="image" src="https://github.com/user-attachments/assets/32b97f21-3fed-4772-83c7-3a08b7fc6daf" />
+
+
+
+
+
+
+
+ 
+
+ 
+
+
 
 
 

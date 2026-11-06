@@ -45,6 +45,14 @@ Create sourcedb ---> table ----> insert data
 
 <img width="721" height="400" alt="image" src="https://github.com/user-attachments/assets/76965038-85d3-4b7a-b709-303d5f07b1bb" />
 
+Next step is to create  a Publication on Publisher --- WHY ? 
+A publication acts as a control layer on the source database, defining the boundaries of what data can be replicated. Unlike physical streaming replication, which maintains an exact copy of the entire database, logical replication allows you to selectively publish specific tables and data changes, giving you granular control over what gets shared with subscriber databases.
+
+<img width="892" height="283" alt="image" src="https://github.com/user-attachments/assets/a6b62c37-6528-4747-b15d-38ff94cd7b19" />
+
+Note : We can configure /publish ALL tables or selected tables.
+
+
 
 
 

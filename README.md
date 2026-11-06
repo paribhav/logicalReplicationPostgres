@@ -70,9 +70,9 @@ Create Subscription on Subscriber ---- Note we need to create table before creat
 
 We can see Data at Target location .Now test Data by updating one records at source and verifying changes at target 
 
-<img width="1235" height="903" alt="image" src="https://github.com/user-attachments/assets/32b97f21-3fed-4772-83c7-3a08b7fc6daf" />
 
 
+<img width="996" height="876" alt="image" src="https://github.com/user-attachments/assets/31240e32-0f9b-4fd2-94e4-55b862ba23c2" />
 
 
 

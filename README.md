@@ -28,4 +28,23 @@ Configure pg_hba.conf with Subscriber server details.
 <img width="716" height="172" alt="image" src="https://github.com/user-attachments/assets/0c779d94-fdee-4fc5-8fc8-2280cd89bb41" />
 
 
+Restart PostgreSQL
+
+<img width="1054" height="391" alt="image" src="https://github.com/user-attachments/assets/54a15680-b937-4441-9bf8-766ab5135d56" />
+
+Verify changes either with grep command or login to postgres using SHOW command 
+
+<img width="651" height="371" alt="image" src="https://github.com/user-attachments/assets/4dfadb7a-4674-432d-b649-452e5a1f2929" />
+
+Create the replication user on Publisher
+Grant access .
+
+<img width="630" height="307" alt="image" src="https://github.com/user-attachments/assets/6232a7c8-e2d3-4c88-bebe-0c53e0f0607c" />
+
+Create sourcedb ---> table ----> insert data 
+
+<img width="721" height="400" alt="image" src="https://github.com/user-attachments/assets/76965038-85d3-4b7a-b709-303d5f07b1bb" />
+
+
+
 

@@ -6,15 +6,26 @@ We will configure PostgreSQL Logical Replication (Publisher → Subscriber) usin
 This is a practical DBA lab covering installation, configuration, publication, subscription, data synchronization, monitoring, troubleshooting, and testing replication behavior.
 
 The goal is to simulate a real production scenario where data from one PostgreSQL database is replicated to another server.
+
 <img width="1006" height="908" alt="image" src="https://github.com/user-attachments/assets/b3317136-929a-4d37-8a73-e43f2ac45911" />
 
 
-Modify below paramters in postgresql.conf file on PUBLISHER server 
+**Modify below paramters in postgresql.conf file on PUBLISHER server **
+
 <img width="598" height="191" alt="image" src="https://github.com/user-attachments/assets/04cb1b0b-65c7-4e4e-8e14-321b21048141" />
 
 
-Parameter	                         Purpose
+**Parameter	                         Purpose**
 wal_level	                    Enables logical WAL generation
 max_wal_senders	Maximum       concurrent WAL sender processes
 max_replication_slots	        Maximum replication slots
 max_slot_wal_keep_size	      Limits WAL retained by a lagging slot
+
+**Configure pg_hba.conf **
+Configure pg_hba.conf with Subscriber server details.
+
+
+<img width="716" height="172" alt="image" src="https://github.com/user-attachments/assets/0c779d94-fdee-4fc5-8fc8-2280cd89bb41" />
+
+
+
